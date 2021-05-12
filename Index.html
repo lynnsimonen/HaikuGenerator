@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haiku Generator</title>
+    <link rel="stylesheet" href="HaikuCSS.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <form id="haikuIntro">
+        <h1>Haiku Generator</h1>
+
+        <p id="instructions">
+            Add a word in the space below.<br>
+            Only 1-7 syllable words will work.<br>
+            Place a dash "-" between each syllable.<br>
+        </p>
+            <br>
+        <label for="newWord">New Word : </label>
+        <input type="text" id="newWord" placeholder="'-' between each syllable" width="300px">
+        <br>
+        <br>
+        <button id="addWord">Add Word</button>
+        <br>
+        <button id="generateHaiku">Generate Haiku</button>
+        <div id="error"></div>
+    </form>
+    <br>
+    <p id="haiku"></p>
+
+</body>
+<script     src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"></script>
+<script src="HaikuCode.js"></script>
+</html>

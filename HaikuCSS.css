@@ -1,0 +1,53 @@
+h1 {
+    margin-bottom: 2px;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+}
+
+form#haikuIntro {
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+    border: 1px darkolivegreen dotted;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    background-color: #C1BC11;
+    opacity: 1;
+}
+p#instructions {
+    display: inline-block;
+    width: 300px;
+    alignment: center;
+    margins: auto;
+    padding: 10px;
+}
+
+button {
+    border: 2px black solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #0A4264;
+    color: white;
+}
+
+div#error {
+    color: red;
+}
+
+p#haiku {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    color: #0A4264;
+}
+body {
+    margin-top: 10px;
+    background-image: url("white400x300.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
