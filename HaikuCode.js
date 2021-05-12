@@ -57,7 +57,7 @@ function generateHaiku(event) {
 // only then do you get a word from the corresponding array.
 
 //totalSyllables <= 5, if not add a word;  use a loop while , 5 but not over 5...
-
+//Create Haiku array to allow easy loop printing of the Haiku lines... (I couldn't get the jquery <br> or \ln to work)
     let Haiku = [];
     let lineOne = "";
     let wordIndex = 0;
@@ -102,8 +102,8 @@ function generateHaiku(event) {
     Haiku.push(lineThree);
 
     $("form").hide;
-    //print out lineOne + lineTwo + lineThree
-
+    
+    //print out lineOne + lineTwo + lineThree...  looping through lines of Haiku array
     for(let line of Haiku)
     $("p#haiku").append(line + "<br>");
 
